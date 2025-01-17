@@ -18,11 +18,11 @@ Welcome to the **VXG Frontend Automation**! This project leverages the power of 
 Get started quickly by cloning the repository and installing the necessary dependencies:
 
 ```bash
-git clone https://github.com/your-username/git-repository-name.git
+git clone git@github.com:emZubair/VXG-Automation.git
 ```
 
 ```bash
-cd project-directory
+cd VXG-Automation
 ```
 
 ```bash
