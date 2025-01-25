@@ -9,13 +9,10 @@ console.log(`Loading pipline config environment: '${environment}' from path: ${e
 
 dotenv.config({ path: envFilePath });
 
-console.log("Resolved configuration:", {
-  headless: true,
-  baseURL: process.env.BASE_URL,
-});
+console.log(`Resolved configuration for prod: ${process.env.BASE_URL}`);
 
 export default defineConfig({
-  testDir: "./e2e/tests/",
+  testDir: "./src/tests/",
   fullyParallel: false,
   timeout: 300 * 1000,
   workers: 1,

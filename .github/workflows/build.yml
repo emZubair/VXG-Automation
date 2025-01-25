@@ -31,7 +31,7 @@ jobs:
                   npx playwright install
 
             - name: Run tests on Playwright
-              run: npm run tests:allure --config=playwright.prod.config.ts
+              run: npm run tests:allure
 
             - name: Get Allure history
               uses: actions/checkout@v3
