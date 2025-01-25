@@ -3,7 +3,7 @@ import * as dotenv from "dotenv";
 import * as path from "path";
 
 
-const environment = ".env"
+const environment = "environments/.env";
 const envFilePath = path.resolve(__dirname, environment);
 console.log(`Loading pipline config environment: '${environment}' from path: ${envFilePath}`);
 

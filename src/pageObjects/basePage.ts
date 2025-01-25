@@ -53,6 +53,11 @@ export class BasePage {
     const option = this.page.locator(`text=${value}`);
     await option.click({ force: true });
   }
+
+  async getElement(locator: string): Promise<Locator> {
+    return await this.page.locator(locator);
+  }
+
   async getElementText(locator: string, index: number = 0): Promise<string> {
     try {
       const locatorHandle = this.page.locator(locator).nth(index);
