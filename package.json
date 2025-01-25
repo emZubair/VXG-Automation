@@ -10,7 +10,7 @@
         "smoke": "npx playwright test --grep '@smoke'",
         "html:test": "npx playwright test --reporter=html",
         "show:html:report": "npx playwright show-report",
-        "tests:allure": "npx playwright test --reporter=allure-playwright",
+        "tests:allure": "npx playwright test --reporter=allure-playwright --config=playwright.prod.config.ts",
         "serve:allure": "allure generate allure-results -o allure-report --clean && allure open allure-report",
         "format": "prettier --write .",
         "lint": "eslint '**/*.ts'",
