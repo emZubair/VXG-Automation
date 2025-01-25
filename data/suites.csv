@@ -1,2 +1,2 @@
 "DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
-"","33308","Validate get started page is loaded","chromium","Sat Jan 25 18:39:14 GMT 2025","failed","Sat Jan 25 18:39:48 GMT 2025","","TC_01_open_playwright.spec.ts","",""
+"","970","Validate get started page is loaded","chromium","Sat Jan 25 18:57:18 GMT 2025","passed","Sat Jan 25 18:57:19 GMT 2025","","TC_01_open_playwright.spec.ts","",""
